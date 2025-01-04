@@ -1,0 +1,68 @@
+{
+    "projectuno": [
+        {
+            "id": 1,
+            "title": "Calculadora JS",
+            "img": "img/calculadora.png",
+            "description": "Desarrollé una calculadora completamente funcional con operaciones básicas y ",
+            "longText" : " avanzadas, integrando además una sección de bloc de notas para que los usuarios puedan escribir cálculos o anotaciones relacionadas de forma sencilla.",
+            "link": "https://calculadorajmy.netlify.app/",
+            "link2": "https://github.com/James1979M"
+        }
+    ],
+    "projectdos": [
+        {
+            "id": 2,
+            "title": "Sistema Backend",
+            "img": "img/sistema-backend.png",
+            "description": "El proyecto consiste en el desarrollo de un sistema backend funcional que permita gestionar ",
+            "longText": "un flujo seguro de usuarios y datos entre un formulario de inicio de sesión, una base de datos MySQL y un panel de administración.",
+            "link": "video_bk.html",
+            "link2": "https://github.com/James1979M"
+        }
+    ],
+    "projecttres": [
+        {
+            "id": 3,
+            "title": "Blog de Música",
+            "img": "img/blog.png",
+            "description": "Desarrollé un blog de música con un buscador de canciones intuitivo y diseño responsivo ",
+            "longText": "que se adapta a cualquier dispositivo. Incluye funcionalidades destacadas como un botón modal para contacto y un menú hamburguesa interactivo.",
+            "link": "https://jamesalsa.netlify.app/",
+            "link2": "https://github.com/James1979M"
+        }
+    ],  
+    "projectcuatro": [
+        {
+            "id": 4,
+            "title": "Agenda de Contactos",
+            "img": "img/agenda.png",
+            "description": "He desarrollado una agenda de contactos que incluye campos para registrar el nombre, ",
+            "longText": "correo electrónico, teléfono y un mensaje. Esta aplicación cuenta con un formulario que permite guardar la información de los contactos directamente en una base de datos. Debajo del formulario, se despliega una tabla que muestra todos los contactos registrados. Además, la tabla ofrece la posibilidad de editar y eliminar los datos de los contactos de forma sencilla y eficiente.",
+            "link": "video_ag.html",
+            "link2": "https://github.com/James1979M"
+        }
+    ],
+    "projectcinco": [
+        {
+            "id": 5,
+            "title": "Gestión de Contenido",
+            "img": "img/gestion.png",
+            "description": "Este proyecto es un sistema de gestión de contenido (CMS) sencillo, ",
+            "longText": "desarrollado en PHP con MySQL para el backend, HTML, JavaScript, para el Frotend, Bootstrap y CSS para el diseño responsivo. Permite a los usuarios crear contenido, agregar nuevos registros con título y descripción, modificar los registros existentes, Borrar registros del sistema y visualizar todos los registros en una tabla ordenada.",
+            "link": "video_gc.html",
+            "link2": "https://github.com/James1979M"
+        }
+    ],
+    "projectseis": [
+        {
+            "id": 6,
+            "title": "App Peluquería",
+            "img": "img/pelu.png",
+            "description": "Este proyecto consiste en el desarrollo de una aplicación web para la ",
+            "longText": "gestión de citas en una peluquería. Está construida en PHP con una base de datos MySQL y utiliza validaciones en JavaScript, este proyecto ofrece una solución eficiente para la organización interna de la peluquería y mejorar la experiencia del cliente.",
+            "link": "video_pelu.html",
+            "link2": "https://github.com/James1979M"
+        }
+    ]
+}

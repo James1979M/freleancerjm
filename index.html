@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="Lo6K_MLkI_1pE3fGYYqichMfhhI_t3ixmp7sguxn_Gs"/>
+    <meta name="language" content="es">
+    <meta name="copyright" content="Freelancer JM">
+    <meta name="author" content="James Marin">
+    <meta name="audience" content="all">
+    <meta name="description"
+        content="Descubre servicios de desarrollo web de calidad (HTML, CSS, JavaScript, PHP, MySQL). Freelancer JM te ayuda a diseñar tu página Web.">
+    <meta name="keywords"
+        content="desarrollo web, diseño web, programación web, freelancer, HTML, CSS, JavaScript, PHP, MySQL, Bases de Datos, Netlify">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Frelancer JM | Desarrollo Web | James Marin">
+    <meta property="og:description"
+        content="Freelancer JM ofrece servicios de desarrollo web profesional. Creamos páginas web modernas y funcionales.">
+    <meta property="og:image" content="img/logopagina.png">
+    <meta property="og:url" content="https://frelancerjm.netlify.app">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/x-icon" href="img/logopagina.png">
+    <link rel="preload" href="css/frelancer.css" as="style">
+    <link href="css/frelancer.css" rel="stylesheet"> 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script><!--Script del mensaje modal, linea 10 archivo js-->
+    <title>Freelancer JM | Desarrollo Web</title>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header role="banner">
+        <h1 class="titulo">James Marin <span>Freelancer</span></h1>
+    </header>
+
+    <!-- Navegación -->
+    <div class="nav-bg">
+        <nav id="navegacion" class="navegacion-principal contenedor" role="navigation" aria-label="Navegación principal">
+            <a href="#sobremi">Sobre mí</a>
+            <a href="#servicios">Servicios</a>
+            <a id="abrir-modal">Contacto</a>
+        </nav>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero" role="region" aria-labelledby="hero-heading">
+        <div class="contenido-hero">
+            <h2 id="hero-heading">Diseño y Desarrollo Web Freelancer</h2>
+            <a id="scrollButton" class="boton">Contactar</a>
+        </div>
+    </section>
+
+    <!-- Contenido Principal -->
+    <main class="contenedor sombra" role="main">
+        <!-- Sobre Mí -->
+        <section class="sobremi" id="sobremi" aria-labelledby="sobre-mi-heading">
+            <h2 id="sobre-mi-heading">Sobre Mí</h2>
+            <p class="parrafo">
+                ¿Necesitas una página web profesional y funcional? ¡Estoy aquí para ayudarte!
+                Soy un desarrollador web junior con experiencia en HTML, CSS, PHP, MySQL y JavaScript.
+                <br> ¡Contáctame para llevar tu proyecto al siguiente nivel!
+            </p>
+        </section>
+
+        <!-- Servicios -->
+        <section id="servicios" aria-labelledby="servicios-heading">
+            <h2 id="servicios-heading">Mis Servicios</h2>
+            <div class="servicios">
+                <!-- Servicio 1 -->
+                <article class="servicio" aria-labelledby="desarrollo-web">
+                    <h3 id="desarrollo-web">Desarrollo Web</h3>
+                    <div class="iconos">
+                        <img width="40" height="40" src="https://img.icons8.com/metro/100/code.png" alt="Desarrollo Web" />
+                        <img width="40" height="40" src="https://img.icons8.com/metro/100/positive-dynamic.png" alt="SEO" />
+                    </div>
+                    <p>Diseño y desarrollo de sitios web personalizados y optimización para motores de búsqueda.</p>
+                </article>
+                <!-- Servicio 2 -->
+                <article class="servicio" aria-labelledby="diseno-responsivo">
+                    <h3 id="diseno-responsivo">Diseño Responsivo</h3>
+                    <div class="iconos">
+                        <img width="70" height="70" src="https://img.icons8.com/metro/100/multiple-devices.png" alt="Diseño Responsivo" />
+                    </div>
+                    <p>Asegúrate de que tu sitio web se vea genial en todos los dispositivos.</p>
+                </article>
+                <!-- Servicio 3 -->
+                <article class="servicio" aria-labelledby="base-datos">
+                    <h3 id="base-datos">Base de Datos</h3>
+                    <div class="iconos">
+                        <img width="100" height="100" src="https://img.icons8.com/metro/100/accept-database.png" alt="Base de Datos" />
+                    </div>
+                    <p>Integración de bases de datos para almacenar y recuperar información de manera eficiente.</p>
+                </article>
+            </div>
+            <a class="volver-menu" href="#navegacion">Volver al Menú</a>
+        </section>
+
+        <!-- Proyectos Destacados -->
+        <section aria-labelledby="proyectos-heading">
+            <h2 id="proyectos-heading">Proyectos Destacados</h2>
+            <div class="cont-json">
+                <article id="project-uno" class="proyecto servicio" role="region" aria-labelledby="proyecto1-calculadora">
+                    <h3 id="proyecto1-title">Proyecto 1</h3>
+                    <!-- Contenido cargado dinámicamente -->
+                </article>
+                <article id="project-dos" class="proyecto servicio" role="region" aria-labelledby="proyecto2-sistemabackend">
+                    <h3 id="proyecto2-title">Proyecto 2</h3>
+                </article>
+                <article id="project-tres" class="proyecto servicio" role="region" aria-labelledby="proyecto3-blogdemusica">
+                    <h3 id="proyecto3-title">Proyecto 3</h3>
+                    <!-- Contenido cargado dinámicamente -->
+                </article>
+                <article id="project-cuatro" class="proyecto servicio" role="region" aria-labelledby="proyecto4-agendadecontactos">
+                    <h3 id="proyecto4-title">Proyecto 4</h3>
+                </article>
+                <article id="project-cinco" class="proyecto servicio" role="region" aria-labelledby="proyecto5-gestiondecontenido">
+                    <h3 id="proyecto5-title">Proyecto 5</h3>
+                </article>
+                <article id="project-seis" class="proyecto servicio" role="region" aria-labelledby="proyecto6-peluqueria">
+                    <h3 id="proyecto6-title">Proyecto 6</h3>
+                </article>
+            </div>
+        </section>
+
+        <!-- Formulario -->
+        <section aria-labelledby="formulario-heading">
+            <h2 id="formulario-heading">Regístrate</h2>
+            <form class="contact-form" name="contact" id="contacto" netlify>
+                <p>
+                    <label>Name <input type="text" name="name" /></label>
+                </p>
+                <p>
+                    <label>Email <input type="email" name="email" /></label>
+                </p>
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer id="footer" class="footer" role="contentinfo">
+        <p>James Marin Freelancer ☎︎ 624845149</p>
+    </footer>
+
+    <script src="js/frelancer.js"></script>
+</body>
+</html>
